@@ -19,3 +19,7 @@ enum test {
 }
 
 console.log(test.red);
+
+
+type q = keyof typeof test;
+
