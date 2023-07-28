@@ -1,13 +1,22 @@
 {
   "name": "from-zero-to-hero-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository is a succinct guide to TypeScript, covering everything from basics to advanced topics. It is a one-stop resource for TypeScript enthusiasts seeking to elevate their programming skills.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "author": "",
+  "keywords": [
+    "typescript",
+    "guide",
+    "advanced",
+    "beginner",
+    "programming",
+    "javascript",
+    "typescript-examples"
+  ],
+  "author": "karthikmani345@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "ts-node": "^8.10.2",
