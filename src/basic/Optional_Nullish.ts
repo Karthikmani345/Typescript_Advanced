@@ -17,8 +17,8 @@ type crew = {
 // @ optional channing operator
 
 const girlA: crew = {
-    name: 'aishu',
-    airlineName: "indigo",
+    name: 'fo',
+    airlineName: "acme",
     // industry: {
     //     category: 'flight'
     // }

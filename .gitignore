@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules/
+
+# Output of the compiler
+dist/
+out/
+
+# IDE - VSCode
+.vscode/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# dotenv environment variables file
+.env

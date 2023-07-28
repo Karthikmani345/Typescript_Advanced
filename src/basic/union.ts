@@ -8,12 +8,12 @@ interface Fish {
     layEggs(): void;
 }
 
-function getSmallPet(): Fish | Bird | void {    
+function getSmallPet(): Fish | Bird | void {
 }
 
 let pet = getSmallPet();
 pet.layEggs(); // okay
-pet.swim();    // errors
+// pet.swim();    // errors
 
 
 function move(pet: Fish | Bird) {

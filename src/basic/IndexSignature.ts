@@ -1,5 +1,5 @@
 let detail: { name: string };
-detail = { name: 'karthik' }
+detail = { name: 'foo' }
 
 
 

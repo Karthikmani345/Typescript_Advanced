@@ -1,6 +1,6 @@
 // @ string literal types
 
-type custom = "karthik" | "aishu";
+type custom = "foo" | "boo";
 
 
 // declare a variable of type literal combined with union.
@@ -10,11 +10,11 @@ fooLiteral = 'Hello'; // Error: "Bar" is not assignable to type "Hello"
 
 type CardinalDirection = "North" | "East" | "South" | "West";
 
-function move(distance: number, direction: CardinalDirection) {
+function step(distance: number, direction: CardinalDirection) {
     // ...
 }
 
-move(1, "North"); // Okay
+step(1, "North"); // Okay
 // move(1, "Nurth"); // Error!
 
 
